@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  ================================ navbar ==================================== */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8fafc;
+    padding: 1.5vh 2.5vw;
+    /* border: 1px solid red; */
+}
+.left-nav li a {
+    padding: 7px 15px;
+    font-size: 1.2rem;
+    /* border: 1px solid #000; */
+}
+.right-nav li a {
+    padding: 7px 15px;
+    font-size: 1.2rem;
+}
+
+
+.nav ul {
+    list-style-type: none;
+}
+.nav ul li {
+    display: inline;
+}
+.nav a {
+    text-decoration: none;
+}
+
+/* ==============================  main section  ===========================*/
+.main {
+    margin-top: 25vh;
+}
+
+.logo-img {
+    width: 20vw;
+    margin: 0 auto 3vh auto;
+    display: block;
+}
+
+.search-field {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    width: 28vw;
+    line-height: 24px;
+    padding: 10px 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    font-size: 1rem;
+}
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    /* background-color: #dfe1e5; */
+    cursor: pointer;
+}
+
+.language {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.language a {
+    text-decoration: none;
+    padding-right: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.language a:hover {
+    text-decoration: underline;
+}
+
+/* ====================================== Footer ================================== */
